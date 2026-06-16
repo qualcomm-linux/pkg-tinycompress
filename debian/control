@@ -1,0 +1,34 @@
+Source: tinycompress
+Section: misc
+Priority: optional
+Maintainer: Sairamreddy Bojja <sbojja@qti.qualcomm.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libglib2.0-dev,
+Standards-Version: 4.6.2
+Homepage: https://github.com/alsa-project/tinycompress.git
+
+Package: libtinycompress-dev
+Section: libdevel
+Architecture: arm64
+Depends:
+ libtinycompress0 (= ${binary:Version}),
+ ${misc:Depends},
+Description: ALSA - compressed APIs library devel files
+ A userspace library for anyone who wants to use the ALSA compressed APIs
+ introduced in Linux 3.3 This library provides the APIs to open a ALSA
+ compressed device and read/write compressed data like MP3 etc to it.
+
+Package: libtinycompress0
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: ALSA - compressed APIs library
+ A userspace library for anyone who wants to use the ALSA compressed APIs
+ introduced in Linux 3.3 This library provides the APIs to open a ALSA
+ compressed device and read/write compressed data like MP3 etc to it.
+ This also includes a utility command line player (cplay) which demonstrates
+ the usage of this API. Currently this contains support for playing the mp3
+ format.
