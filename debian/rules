@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+	--with-glib \
+	CFLAGS='-DTINYCOMPRESS_PLUGIN_DIR=\"/usr/lib/${DEB_HOST_MULTIARCH}/\"'
+
+override_dh_install:
+	dh_install
+	rm -f $(CURDIR)/debian/tmp/usr/lib/*/*.la
