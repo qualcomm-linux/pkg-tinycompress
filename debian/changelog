@@ -9,3 +9,10 @@ tinycompress (1.0.0-0qli+staging1) UNRELEASED; urgency=low
   * Initial release.
 
  -- Sairamreddy Bojja  <sbojja@qti.qualcomm.com>  Sat, 13 Jun 2026 14:19:40 +0530
+
+tinycompress (1.0.0-0qli+staging1~bpo13.1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Sairamreddy Bojja  <sbojja@qti.qualcomm.com>  Sat, 13 Jun 2026 14:19:40 +0530
+
