@@ -12,9 +12,3 @@ tinycompress (1.2.16-1qli+staging2) forky; urgency=low
   * New version Release.
 
  -- root <root@1e342d47e585>  Thu, 02 Jul 2026 09:15:33 +0000
-
-tinycompress (1.0.0-0qli+staging1) UNRELEASED; urgency=low
-
-  * Initial release.
-
- -- Sairamreddy Bojja  <sbojja@qti.qualcomm.com>  Sat, 13 Jun 2026 14:19:40 +0530
