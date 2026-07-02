@@ -1,3 +1,9 @@
+tinycompress (1.2.16-1qli+staging3~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 02 Jul 2026 14:28:10 +0200
+
 tinycompress (1.2.16-1qli+staging3) forky; urgency=medium
 
   [ Agathe Porte ]
