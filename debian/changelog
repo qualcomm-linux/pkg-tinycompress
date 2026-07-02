@@ -1,8 +1,10 @@
 tinycompress (1.2.16-1qli+staging3~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * Rebuild
+  * Note that -1 is used because of previous uploads to qli-staging despite
+    this package not being in Debian.
 
- -- root <root@9c16ca623b0c>  Thu, 02 Jul 2026 09:18:54 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 02 Jul 2026 14:14:56 +0200
 
 tinycompress (1.2.16-1qli+staging2) forky; urgency=low
 
