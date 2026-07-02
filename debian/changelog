@@ -1,18 +1,15 @@
-tinycompress (1.2.16-1qli+staging3~) UNRELEASED; urgency=medium
+tinycompress (1.2.16-1qli+staging3) forky; urgency=medium
 
-  * Unreleased changes
+  [ Agathe Porte ]
+  * Rebuild
+  * Note that -1 is used because of previous uploads to qli-staging despite
+    this package not being in Debian.
 
- -- root <root@153be3cbb492>  Thu, 02 Jul 2026 07:35:58 +0000
+ -- root <root@3d23712908e1>  Thu, 02 Jul 2026 12:23:49 +0000
 
-tinycompress (1.2.16-1qli+staging2) trixie; urgency=low
+tinycompress (1.2.16-1qli+staging2) forky; urgency=low
 
   [ Sairamreddy Bojja  ]
   * New version Release.
 
- -- root <root@5dab54a1bb8b>  Thu, 02 Jul 2026 07:33:58 +0000
-
-tinycompress (1.0.0-0qli+staging1~bpo13.1) UNRELEASED; urgency=low
-
-  * Initial release.
-
- -- Sairamreddy Bojja  <sbojja@qti.qualcomm.com>  Sat, 13 Jun 2026 14:19:40 +0530
+ -- root <root@1e342d47e585>  Thu, 02 Jul 2026 09:15:33 +0000
