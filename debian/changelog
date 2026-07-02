@@ -1,8 +1,9 @@
-tinycompress (1.2.16-1qli+staging2) UNRELEASED; urgency=low
+tinycompress (1.2.16-1qli+staging2) forky; urgency=low
 
+  [ Sairamreddy Bojja  ]
   * New version Release.
 
- -- Sairamreddy Bojja  <sbojja@qti.qualcomm.com>  Wed, 01 Jul 2026 17:55:35 +0530
+ -- root <root@1e342d47e585>  Thu, 02 Jul 2026 09:15:33 +0000
 
 tinycompress (1.0.0-0qli+staging1) UNRELEASED; urgency=low
 
