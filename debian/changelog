@@ -1,15 +1,15 @@
-tinycompress (1.2.16-1qli+staging3~bpo13+2~) UNRELEASED; urgency=medium
+tinycompress (1.2.16-1qli+staging4~bpo13+1~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
-
- -- root <root@c23d83a52c89>  Thu, 02 Jul 2026 12:31:55 +0000
-
-tinycompress (1.2.16-1qli+staging3~bpo13+1) trixie; urgency=medium
-
-  [ Agathe Porte ]
   * Rebuild for trixie.
 
- -- root <root@a8d3b6ace976>  Thu, 02 Jul 2026 12:29:53 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 03 Jul 2026 14:58:49 +0200
+
+tinycompress (1.2.16-1qli+staging4) forky; urgency=medium
+
+  [ Agathe Porte ]
+  * No-changes rebuild.
+
+ -- root <root@b89f648d51f3>  Fri, 03 Jul 2026 12:55:53 +0000
 
 tinycompress (1.2.16-1qli+staging3) forky; urgency=medium
 
