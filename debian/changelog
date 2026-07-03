@@ -1,8 +1,9 @@
-tinycompress (1.2.16-1qli+staging4~) UNRELEASED; urgency=medium
+tinycompress (1.2.16-1qli+staging4) forky; urgency=medium
 
+  [ Agathe Porte ]
   * No-changes rebuild.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 03 Jul 2026 14:54:05 +0200
+ -- root <root@b89f648d51f3>  Fri, 03 Jul 2026 12:55:53 +0000
 
 tinycompress (1.2.16-1qli+staging3) forky; urgency=medium
 
