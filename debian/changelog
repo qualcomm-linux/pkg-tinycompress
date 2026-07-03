@@ -1,8 +1,8 @@
 tinycompress (1.2.16-1qli+staging4~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * No-changes rebuild.
 
- -- root <root@70a7124d7e52>  Thu, 02 Jul 2026 12:26:30 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 03 Jul 2026 14:54:05 +0200
 
 tinycompress (1.2.16-1qli+staging3) forky; urgency=medium
 
