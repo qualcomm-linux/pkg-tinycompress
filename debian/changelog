@@ -1,3 +1,9 @@
+tinycompress (1.2.16-1qli+staging4~bpo14+1~) UNRELEASED; urgency=medium
+
+  * Unreleased changes
+
+ -- root <root@90fe163c9970>  Fri, 03 Jul 2026 13:02:14 +0000
+
 tinycompress (1.2.16-1qli+staging4~bpo13+1) trixie; urgency=medium
 
   [ Agathe Porte ]
