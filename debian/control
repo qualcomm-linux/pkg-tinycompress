@@ -8,7 +8,9 @@ Build-Depends:
  debhelper-compat (= 13),
  libglib2.0-dev,
 Standards-Version: 4.6.2
-Homepage: https://github.com/alsa-project/tinycompress.git
+Homepage: https://github.com/alsa-project/tinycompress
+Vcs-Git: https://github.com/qualcomm-linux/pkg-tinycompress.git
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-tinycompress
 
 Package: libtinycompress-dev
 Section: libdevel
