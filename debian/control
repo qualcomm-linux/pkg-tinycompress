@@ -1,5 +1,5 @@
 Source: tinycompress
-Section: misc
+Section: sound
 Maintainer: Sairamreddy Bojja <sbojja@qti.qualcomm.com>
 Uploaders:
  Agathe Porte <agathe.porte@oss.qualcomm.com>,
@@ -24,6 +24,7 @@ Description: ALSA - compressed APIs library devel files
  compressed device and read/write compressed data like MP3 etc to it.
 
 Package: libtinycompress0
+Section: libs
 Architecture: arm64
 Depends:
  ${misc:Depends},
