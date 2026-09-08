@@ -1,35 +1,79 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: tinycompress
+Upstream-Contact: https://github.com/alsa-project/tinycompress/issues/new
 Source: https://github.com/alsa-project/tinycompress
 
 Files: *
-Copyright: 2018 The Linux Foundation
+Copyright: 2011-2022 Intel Corporation
+           2013-2014 Wolfson Microelectronic Ltd.
+           2018-2019 Linaro Ltd.
+           2018-2020 The Linux Foundation
+           2018-2021 NXP
+           Qualcomm Technologies, Inc. and/or its subsidiaries
+License: BSD-3-Clause or LGPL-2.1-only
+
+Files: debian/*
+Copyright: Qualcomm Technologies, Inc. and/or its subsidiaries
 License: BSD-3-clause
 
+Files: src/lib/compress_hw.c
+Copyright: 2011-2012 Intel Corporation
+           2020 The Linux Foundation
+           Qualcomm Technologies, Inc. and/or its subsidiaries
+License: BSD-3-Clause or LGPL-2.1-only
+
+Files: include/tinycompress/compress_ops.h
+Copyright: 2020 The Linux Foundation
+           Qualcomm Technologies, Inc. and/or its subsidiaries
+License: BSD-3-Clause or LGPL-2.1-only
+
+Files: include/tinycompress/tinywave.h
+       src/utils/wave.c
+Copyright: 2020-2021 NXP
+           Qualcomm Technologies, Inc. and/or its subsidiaries
+License: BSD-3-Clause or LGPL-2.1-only
+
+Files: src/utils/sofprobeclient/probe_dma_frame.h
+       src/utils/sofprobeclient/probes_demux.c
+       src/utils/sofprobeclient/probes_demux.h
+       src/utils/sofprobeclient/probes_wave.h
+Copyright: 2019-2022 Intel Corporation
+           Qualcomm Technologies, Inc. and/or its subsidiaries
 License: BSD-3-clause
+
+Files: src/utils-lgpl/fcplay.c
+Copyright: 2011-2012 Intel Corporation
+           2018-2019 Linaro Ltd.
+           Qualcomm Technologies, Inc. and/or its subsidiaries
+License: LGPL-2.1-only
+
+License: BSD-3-Clause
  Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
+ modification, are permitted provided that the following conditions are met:
  .
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
  .
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in
-    the documentation and/or other materials provided with the distribution.
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
  .
- 3. Neither the name of The Linux Foundation nor the names of its
-    contributors may be used to endorse or promote products derived
-    from this software without specific prior written permission.
+ 3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
  .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2.1-only
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
