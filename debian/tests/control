@@ -1,0 +1,6 @@
+Tests: pkg-config
+Depends: @, libtinycompress-dev, build-essential, pkg-config
+
+Tests: smoke
+Depends: @
+Restrictions: superficial

@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+tmpdir=$(mktemp -d)
+trap 'rm -rf "$tmpdir"' EXIT
+
+for tool in cplay crecord sofprobeclient; do
+	tool_path=$(command -v "$tool")
+	test -x "$tool_path"
+	output="$tmpdir/$tool.help"
+	"$tool_path" -h >"$output" 2>&1 || true
+	grep -qi 'usage:' "$output"
+done
