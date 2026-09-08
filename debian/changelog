@@ -1,8 +1,8 @@
-tinycompress (1.2.16-1qli+staging6~) UNRELEASED; urgency=medium
+tinycompress (1.2.16-1qli1~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * Rebuild for QLI.
 
- -- Debusine Action Bot <noreply@bot.invalid>  Tue, 08 Sep 2026 13:54:35 +0000
+ -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Tue, 08 Sep 2026 15:59:53 +0200
 
 tinycompress (1.2.16-1qli+staging5) forky; urgency=medium
 
