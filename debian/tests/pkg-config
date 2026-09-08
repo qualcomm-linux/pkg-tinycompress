@@ -1,0 +1,27 @@
+#!/bin/sh
+set -eu
+
+tmpdir=$(mktemp -d)
+trap 'rm -rf "$tmpdir"' EXIT
+
+pkg-config --exists tinycompress
+includedir=$(pkg-config --variable=includedir tinycompress)
+test -f "$includedir/tinycompress/tinycompress.h"
+
+cat >"$tmpdir/client.c" <<'EOF'
+#include <time.h>
+#include <tinycompress.h>
+
+int main(void)
+{
+	struct compress *(*open_fn)(unsigned int, unsigned int,
+			unsigned int, struct compr_config *) = compress_open;
+	void (*close_fn)(struct compress *) = compress_close;
+
+	return open_fn == 0 || close_fn == 0;
+}
+EOF
+
+cc $(pkg-config --cflags tinycompress) "$tmpdir/client.c" \
+	$(pkg-config --libs tinycompress) -o "$tmpdir/client"
+"$tmpdir/client"
