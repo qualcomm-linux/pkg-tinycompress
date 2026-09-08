@@ -1,8 +1,9 @@
-tinycompress (1.2.16-1qli1~) UNRELEASED; urgency=medium
+tinycompress (1.2.16-1qli1) forky; urgency=medium
 
+  [ Lukas Märdian ]
   * Rebuild for QLI.
 
- -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Tue, 08 Sep 2026 15:59:53 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Tue, 08 Sep 2026 14:07:02 +0000
 
 tinycompress (1.2.16-1qli+staging5) forky; urgency=medium
 
