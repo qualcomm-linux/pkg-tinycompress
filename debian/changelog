@@ -1,3 +1,10 @@
+tinycompress (1.2.16-1qli1~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie QLI.
+  * d/gbp.conf: Update for QLI.
+
+ -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Tue, 08 Sep 2026 16:14:01 +0200
+
 tinycompress (1.2.16-1qli+staging5) forky; urgency=medium
 
   [ Lukas Märdian ]
