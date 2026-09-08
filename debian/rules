@@ -5,7 +5,3 @@ export DEB_CFLAGS_MAINT_APPEND = -DTINYCOMPRESS_PLUGIN_DIR=\"/usr/lib/${DEB_HOST
 
 %:
 	dh $@
-
-override_dh_install:
-	dh_install
-	rm -f $(CURDIR)/debian/tmp/usr/lib/*/*.la
