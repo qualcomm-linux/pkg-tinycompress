@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Sairamreddy Bojja <sbojja@qti.qualcomm.com>
 Uploaders:
- Agathe Porte <agathe.porte@oss.qualcomm.com>
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
@@ -25,8 +25,8 @@ Description: ALSA - compressed APIs library devel files
 Package: libtinycompress0
 Architecture: arm64
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
+ ${shlibs:Depends},
 Description: ALSA - compressed APIs library
  A userspace library for anyone who wants to use the ALSA compressed APIs
  introduced in Linux 3.3 This library provides the APIs to open a ALSA
