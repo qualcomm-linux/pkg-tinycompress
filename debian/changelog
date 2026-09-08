@@ -1,8 +1,23 @@
 tinycompress (1.2.16-1qli+staging5~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * d/control: Wrap-and-sort.
+  * d/control: Add myself as an uploader.
+  * d/control: Drop implicit fields.
+  * d/rules: Make executable.
+  * d/rules: Enable hardening flags.
+  * d/watch: Initial watch file.
+  * d/upstream: Add metadata.
+  * d/control: Fix Homepage, add Vcs-* fields.
+  * d/control: Fix Section.
+  * d/rules: Do not override CFLAGS.
+  * d/libtinycompress0.symbols: Add initial .symbols file.
+  * d/control: Add new tinycompress package for utilities.
+  * d/copyright: Update.
+  * d/control: Drop unused build-dep on glib2.0.
+  * d/rules: Cleanup.
+  * d/t/control: Add basic autopkgtests.
 
- -- Debusine Action Bot <noreply@bot.invalid>  Fri, 03 Jul 2026 12:57:45 +0000
+ -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Tue, 08 Sep 2026 15:49:01 +0200
 
 tinycompress (1.2.16-1qli+staging4) forky; urgency=medium
 
